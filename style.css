@@ -8,7 +8,31 @@ Template: bridge
 @import url("../bridge/style.css");
 
 
-
+.qbutton {
+	-webkit-box-shadow: 0 4px 0 #c56f4a;
+  	-moz-box-shadow: 0 4px 0 #c76f45;
+  	box-shadow: 0 4px 0 #c76f45;
+}
+.menu-button a span {
+	display: inline-block;
+	color: #FFF;
+	font-size: 13px;
+	line-height: 34px;
+	height: 34px;
+	font-weight: 700;
+	background-color: #EF7C46;
+	border-radius: 4px;
+	letter-spacing: 0px;
+	border-width: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-box-shadow: 0 4px 0 #c56f4a;
+  	-moz-box-shadow: 0 4px 0 #c76f45;
+  	box-shadow: 0 4px 0 #c76f45;
+}
+.menu-button a span.plus {
+	display: none;
+}
 #sentence_section {
 	background-position: center bottom;
 	background-size: auto 100%;
