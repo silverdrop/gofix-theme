@@ -13,29 +13,18 @@ Template: bridge
   	-moz-box-shadow: 0 4px 0 #c76f45;
   	box-shadow: 0 4px 0 #c76f45;
 }
-.menu-button a span {
-	display: inline-block;
-	color: #FFF;
-	font-size: 13px;
-	line-height: 34px;
-	height: 34px;
-	font-weight: 700;
-	background-color: #EF7C46;
-	border-radius: 4px;
-	letter-spacing: 0px;
-	border-width: 0px;
-	padding-left: 10px;
-	padding-right: 10px;
-	-webkit-box-shadow: 0 4px 0 #c56f4a;
-  	-moz-box-shadow: 0 4px 0 #c76f45;
-  	box-shadow: 0 4px 0 #c76f45;
-}
-.menu-button a span.plus {
-	display: none;
-}
 #sentence_section {
 	background-position: center bottom;
 	background-size: auto 100%;
 }
 
 
+@media screen and (max-width: 1000px) {
+	.logo_wrapper, .q_logo a 				{left: 0;}
+	.logo_wrapper, .side_menu_button		{height: 70px !important;}
+}
+@media screen and (max-width: 768px) {
+	.header_bottom_right_widget_holder		{display: table-cell; padding-right: 0;}
+	.header_bottom .container_inner			{width: auto;}
+	#sentence_section .fp-tableCell 		{box-sizing: border-box; padding-bottom: 70px;}
+}
