@@ -1,0 +1,299 @@
+{
+    "pricedata": [
+        {
+            "type"  : "oven",
+            "brand" : "Cuisina",
+            "cost"  : "100"
+        },
+        {
+            "type"  : "fridge",
+            "brand" : "Eurolec",
+            "cost"  : "100"
+        },
+        {
+            "type"  : "microwave",
+            "brand" : "Homark",
+            "cost"  : "100"
+        },
+        {
+            "type"  : "dishwasher",
+            "brand" : "Qudos",
+            "cost"  : "100"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Aga",
+            "cost"  : "180"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Heartland",
+            "cost"  : "180"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "La Cornue",
+            "cost"  : "180"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Marvel",
+            "cost"  : "180"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Northland",
+            "cost"  : "180"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Amica",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Gram",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Bosch",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Gaggenau",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Neff",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Constructa",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Siemens",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Thermador",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Baumatic",
+            "cost"  : "115"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Candy",
+            "cost"  : "115"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Hoover",
+            "cost"  : "115"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Jinling",
+            "cost"  : "115"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "White Knight",
+            "cost"  : "100"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Crown",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "De Dietrich",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Electrolux",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "AEG",
+            "cost"  : "140"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Belling",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Glen dimplex",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "LG",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Caple",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Indesit",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Hotpoint",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Beko",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Blomberg",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Kenwood",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Flavel",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Grundig",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Leisure",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Siemens",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Baumatic",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Samsung",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Worcester",
+            "cost"  : "140"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Smeg",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Miele",
+            "cost"  : "150"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Zanussi",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Cannon",
+            "cost"  : "110"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Panasonic",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Neff",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Stoves",
+            "cost"  : "180"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "New world",
+            "cost"  : "130"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Creda",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Sharp",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Maytag",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Hostess",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Liebherr",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Vax",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Tecnik",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "LEC",
+            "cost"  : "120"
+        },
+        {
+            "type"  : "washing maching",
+            "brand" : "Bissel",
+            "cost"  : "120"
+        }
+    ]
+}
