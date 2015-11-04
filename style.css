@@ -50,6 +50,12 @@ h2, .qbutton {
   	-moz-box-shadow: 0px 0px 0px 4px #b9dcb2;
   	box-shadow: 0px 0px 0px 4px #b9dcb2;
 }
+.qbutton.disabled {
+	background-color: rgb(102, 152, 108);
+	-webkit-box-shadow: 0px 0px 0px 4px rgb(193, 203, 191);
+  	-moz-box-shadow: 0px 0px 0px 4px rgb(193, 203, 191);
+	box-shadow: 0px 0px 0px 4px rgb(193, 203, 191);
+}
 ::-webkit-input-placeholder {
    color: #888;
 }
@@ -77,22 +83,31 @@ header .header_inner_left {
 /* SENTENCE BLOCK */
 .sentenceblock-container {
 	background: #00829f;
-	width: 1060px;
-	margin: 0 4% 0 auto;
+	width: 55%;
+	margin: 50px 4% 50px auto;
 	padding: 20px 0 90px;
 	border-radius: 0 80px 0 80px;
+	font-size: 24px;
 }
 .sentenceblock-container h2 {
 	color: white;
 	padding: 0 35px 20px 35px;
 	text-align: left;
+	font-size: 1.6em;
 }
 .sentence {
 	color: #c6fcbc;
-	font-size: 24px;
 	padding: 0 40px;
 	line-height: 32px;
 	vertical-align: middle;
+}
+.sentence .part1,
+.sentence .part2 {
+	display: block;
+	float: left;
+}
+.sentence .part1 {
+	margin-right: 10px;
 }
 .sentence .brand,
 .sentence .what,
@@ -164,94 +179,54 @@ header .header_inner_left {
 }
 .result {
 	position: relative;
-	font-size: 24px;
 	color: #301e4a;
-	margin: 30px -10px 0 -10px;
-	height: 40px;
-	line-height: 40px;
+	margin: 30px 0 0 0;
+	height: 1.6em;
+	line-height: 1.6em;
+	font-size: 1.15em;
 	background: #FFF;
-	padding: 15px 50px;
+	padding: 0.625em 50px;
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.34);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.34);
 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.34);
 }
-.result:before, .result:after {
-	content: "";
-	position: absolute;
-	display: block;
-	bottom: -10px;
-	z-index: -1;
-	border-style: solid;
-	border-color: #FFF transparent transparent transparent;
-}
-.result:before {
-	left: 0;
-	border-width: 10px 0 0 10px;
-}
-.result:after {
-	right: 0;
-	border-width: 10px 10px 0 0;
-}
 .result .price {
-	font-size: 30px;
+	font-size: 1.25em;
 	font-weight: 700;
 	letter-spacing: 0;
-	float: left;
+	display: inline-block;
 	margin-right: 10px;
+	position: relative;
 }
 .result .price i {
 	font-style: normal;
 }
-.result .qbutton {
-	margin-left: 10px;
-	vertical-align: top;
-	cursor: pointer;
-	border: none;
-}
-.result .sa-icon {
-	display: none;
+.result .tick-icon {
+	background: transparent url("tick.png") no-repeat scroll center center / contain;
 	width: 80px;
 	height: 80px;
-	border-radius: 50%;
-	padding: 0px;
-	position: relative;
-	box-sizing: content-box;
+	display: none;
 	position: absolute;
-	top: -10px;
-	left: -15px;
-}
-.result .sa-icon.sa-success .sa-line {
-	height: 7px;
-	background-color: #A5DC86;
-	display: block;
-	border-radius: 2px;
-	position: absolute;
-	z-index: 2;
-}
-.result .sa-icon.sa-success .sa-line.sa-tip {
-	width: 25px;
-	left: 14px;
-	top: 46px;
-	transform: rotate(55deg);
-}
-.result .sa-icon.sa-success .sa-line.sa-long {
-	width: 87px;
-	right: -26px;
-	top: 28px;
-	transform: rotate(-45deg);
+	top: -40px;
+	left: -50px;
 }
 .result.active .price {
 	color: #7640c8;
 }
-.result.active .sa-icon {
+.result.active .tick-icon {
 	display: block;
 }
-.result:not(.active) .qbutton {
-	background-color: rgb(102, 152, 108);
-	-webkit-box-shadow: 0px 0px 0px 4px rgb(193, 203, 191);
-  	-moz-box-shadow: 0px 0px 0px 4px rgb(193, 203, 191);
-	box-shadow: 0px 0px 0px 4px rgb(193, 203, 191);
+.result .get-in-touch {
+	position: absolute;
+	bottom: -60px;
+	right: 50px;
+	cursor: pointer;
+    border: none;
 }
+.result .desc {
+	display: inline-block;
+}
+
 
 .tipso_content {
 	letter-spacing: 0px;
@@ -285,8 +260,6 @@ header .header_inner_left {
 
 /* FOOTER */
 footer {
-	position: fixed;
-	bottom: 0;
 }
 .footer_bottom {
 	height: 40px;
@@ -300,18 +273,49 @@ footer {
 	vertical-align: top;
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1200px) {
-	.sentenceblock-container 				{margin: 0 auto;}
+
+@media screen and (min-width: 1501px) and (max-width: 1700px) {
+	.sentenceblock-container 				{width: 60%; font-size: 23px;}
+}
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+	.sentenceblock-container 				{width: 65%; font-size: 20px;}
+}
+@media screen and (min-width: 1101px) and (max-width: 1300px) {
+	.sentenceblock-container 				{width: 70%; font-size: 18px; letter-spacing: -0.03em;}
+}
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+	.sentenceblock-container 				{width: 73%; font-size: 16px; letter-spacing: -0.03em;}
+	.sentence 								{padding-left: 30px; padding-right: 30px;}
+	.sentenceblock-container h2 			{padding-left: 25px; padding-right: 25px;}
 }
 @media screen and (max-width: 1000px) {
 	.logo_wrapper, .q_logo a 				{left: 0;}
 	.logo_wrapper, .side_menu_button		{height: 70px !important;}
 	footer 									{position: static;}
-	.sentenceblock-container 				{background: transparent; padding-top: 70px; padding-bottom: 70px; margin: 0;}
-	.sentenceblock-container h2 			{font-size: 50px;}
+	.sentenceblock-container 				{width: auto; margin: 0 -15px; font-size: 20px; background: transparent; padding-top: 70px; padding-bottom: 0;}
+	.sentenceblock-container h2 			{font-size: 2em; padding-bottom: 1.3em;}
+	.sentence 								{background-color: rgba(0, 130, 159, 0.9); padding: 20px 40px;}
+	.result 								{margin-top: 0; text-align: center; height: auto;}
+	.result .get-in-touch 					{position: static; margin-top: 20px;}
 }
 @media screen and (max-width: 768px) {
+	.sentence 								{background-color: transparent; padding: 0;}
+	.sentence .part1 						{float: none; padding: 20px 20px 20px 40px; background-color: rgba(0, 130, 159, 0.9);}
+	.sentence .part2 						{float: none; padding: 20px 40px; background-color: rgba(0, 115, 140, 0.9);}	
+	.sentence .des 							{padding-left: 97px;}
+	.result .desc 							{font-size: 15px; line-height: 18px; text-align:; left; letter-spacing: 0px; font-weight: 300;}
 }
 @media screen and (max-width: 600px) {
+	.vc_row.full_screen_section 			{padding: 0;}
 	footer .two_columns_50_50 .column2 		{display: none;}
+}
+@media screen and (max-width: 530px) {
+	.sentence 								{font-size: 16px; letter-spacing: -0.03em;}
+	.sentence input 						{width: 130px;}
+	.sentence .des 							{padding-left: 87px;}
+}
+@media screen and (max-width: 478px) {
+	.sentence .brand 						{float: none;}
+	.sentence .what 						{float: none; margin-left: 110px; margin-top: 20px;}
+	.sentence .des 							{padding-left: 0;}
 }

@@ -41,6 +41,7 @@ jQuery(document).ready(function($){
     	if(brand == "" || brandlist.indexOf(brand)==-1) {
     		$brandinput.addClass("error");
     		$(".result").removeClass('active');
+    		$(".get-in-touch").addClass('disabled');
 			$price.html("0");
     		return;
     	}
@@ -63,6 +64,7 @@ jQuery(document).ready(function($){
 			if (pricedata[i].brand == brand) {
 				$price.html(parseInt(pricedata[i].cost)+additional_cost);
 				$(".result").addClass('active');
+    			$(".get-in-touch").removeClass('disabled');
 			} 
     }
 
@@ -74,6 +76,14 @@ jQuery(document).ready(function($){
 		content: '<p>We’ll do everything we can to make this super simple.</p><p>Please <a href="mailto:someone@example.com">email us</a> or just call Jenny on <span>07469 141 125</span>.</p>',
 		tooltipHover: true
 	});
+
+	var verticalCenter = function() {
+		$(".content_inner").css("padding-top",($(".content").height()-$(".content_inner").height())/2);
+	}
+	verticalCenter();
+	$(window).resize(function(){
+	    verticalCenter();
+	}); 
 
 	$(".sentence .option-list li").click(function(){
 		$(this).siblings().removeClass("selected");

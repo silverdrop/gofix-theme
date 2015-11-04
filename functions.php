@@ -23,36 +23,37 @@ function sentenceblock( $atts ) {
 	<div class="sentenceblock-container"><div class="sentenceblock-inner">
 		<h2>Local expert repairers</h2>
 		<div class="sentence clearfix">
-			<div class="brand">My <input type="text" name="brand" placeholder="Your Brand" value="" /></div>
-			<div class="what">
-				<ul class="option-list">
-					<li>washing machine</li>
-					<li>fridge/freezer</li>
-					<li>dish washer</li>
-					<li>oven/hob</li>
-					<li>tumble dryer</li>
-					<li>cooker</li>
-				</ul> is broken.
+			<div class="part1 clearfix">
+				<div class="brand">My <input type="text" name="brand" placeholder="Your Brand" value="" /></div>
+				<div class="what clearfix">
+					<ul class="option-list">
+						<li>washing machine</li>
+						<li>fridge/freezer</li>
+						<li>dish washer</li>
+						<li>oven/hob</li>
+						<li>tumble dryer</li>
+						<li>cooker</li>
+					</ul> is broken.
+				</div>
 			</div>
-			<div class="des">I'd like a repair</div>
-			<div class="when">
-				<ul class="option-list">
-					<li>today</li>
-					<li>tomorrow</li>
-					<li class="selected">this week</li>
-				</ul>
+			<div class="part2 clearfix">
+				<div class="des">I'd like a repair</div>
+				<div class="when clearfix">
+					<ul class="option-list">
+						<li>today</li>
+						<li>tomorrow</li>
+						<li>this week</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="result">
 			<div class="price">
-				<div class="sa-icon sa-success animate">
-			      <span class="sa-line sa-tip animateSuccessTip"></span>
-			      <span class="sa-line sa-long animateSuccessLong"></span>
-			    </div>
+				<div class="tick-icon"></div>
 			    Fixed price: £<i>0</i>
 			</div>
-			<span class="">no hidden cost: call out, parts <span style="text-decoration:underline">and labour</span> included</span>
-			<a class="qbutton small get-in-touch">Get in touch with Jenny</a>
+			<div class="desc"><span class="desc1">no hidden cost:</span> <span class="desc2">call out, parts and labour included</span></div>
+			<a class="qbutton small get-in-touch disabled">Get in touch with Jenny</a>
 		</div>
 	</div></div>
 
