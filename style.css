@@ -82,7 +82,7 @@ header .header_inner_left {
 
 /* SENTENCE BLOCK */
 .sentenceblock-container {
-	background: #00829f;
+	background: rgba(46,7,152,0.7);
 	width: 55%;
 	margin: 50px 4% 50px auto;
 	padding: 20px 0 90px;
@@ -91,13 +91,13 @@ header .header_inner_left {
 }
 .sentenceblock-container h2 {
 	color: white;
-	padding: 0 35px 20px 35px;
+	padding: 10px 35px 36px 64px;
 	text-align: left;
-	font-size: 1.6em;
+	font-size: 3em;
 }
 .sentence {
-	color: #c6fcbc;
-	padding: 0 40px;
+	color: #fff1c6;
+	padding: 0 40px 0 70px;
 	line-height: 32px;
 	vertical-align: middle;
 }
@@ -116,6 +116,7 @@ header .header_inner_left {
 	float: left;
 	display: block;
 	margin-right: 15px;
+	font-weight: bold;
 }
 .sentence div:last-child {
 	margin-right: 0;
@@ -129,7 +130,7 @@ header .header_inner_left {
 .sentence input {
 	width: 150px;
 	height: 26px;
-	padding: 4px 10px 0;
+	padding: 2px 10px 2px 8px;
 	margin-left: 7px;
 	vertical-align: top;
 	border: 1px solid #585858;
@@ -158,21 +159,24 @@ header .header_inner_left {
 }
 
 .sentence ul {
-	color: #444;
+	color: #462c8c;
 	list-style: none;
 	display: block;
 	float: left;
 	margin-right: 7px;
+	margin-top: -2px;
+	padding: 0 0 7px 0;
 }
 .sentence ul li {
-	margin: -2px 0 5px 0;
-	padding: 2px 10px;
+	margin: -1px 0 5px 0;
+	padding: 2px 15px 2px 11px;
 	background: #FFF;
 	cursor: pointer;
 	border-radius: 2px;
 }
 .sentence ul li:hover {
-	background-color: #CDCACA;
+	background-color: #f1ffc2;
+	color: #5d8000;
 }
 .sentence ul li.selected {
 	background-color: #C6FCBC;
@@ -185,7 +189,7 @@ header .header_inner_left {
 	line-height: 1.6em;
 	font-size: 1.15em;
 	background: #FFF;
-	padding: 0.625em 50px;
+	padding: 0.85em 50px .55em 70px;
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.34);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.34);
 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.34);
@@ -273,7 +277,11 @@ footer {
 	vertical-align: top;
 }
 
+body > div.wrapper > div > footer > div > div > div > div.column1.footer_bottom_column > div > div > div {
+	color: #2e0798;
+}
 
+body > div.wrapper > div > footer > div > div > div > div.column1.footer_bottom_column > div > div > div
 @media screen and (min-width: 1501px) and (max-width: 1700px) {
 	.sentenceblock-container 				{width: 60%; font-size: 23px;}
 }
@@ -294,14 +302,14 @@ footer {
 	footer 									{position: static;}
 	.sentenceblock-container 				{width: auto; margin: 0 -15px; font-size: 20px; background: transparent; padding-top: 70px; padding-bottom: 0;}
 	.sentenceblock-container h2 			{font-size: 2em; padding-bottom: 1.3em;}
-	.sentence 								{background-color: rgba(0, 130, 159, 0.9); padding: 20px 40px;}
+	.sentence 								{background-color: rgba(46, 7, 152, 0.7); padding: 20px 40px;}
 	.result 								{margin-top: 0; text-align: center; height: auto;}
 	.result .get-in-touch 					{position: static; margin-top: 20px;}
 }
 @media screen and (max-width: 768px) {
 	.sentence 								{background-color: transparent; padding: 0;}
-	.sentence .part1 						{float: none; padding: 20px 20px 20px 40px; background-color: rgba(0, 130, 159, 0.9);}
-	.sentence .part2 						{float: none; padding: 20px 40px; background-color: rgba(0, 115, 140, 0.9);}	
+	.sentence .part1 						{float: none; padding: 20px 20px 20px 40px; background-color: rgba(46, 7, 152, 0.7);}
+	.sentence .part2 						{float: none; padding: 20px 40px; background-color: rgba(46, 7, 152, 0.85);}	
 	.sentence .des 							{padding-left: 97px;}
 	.result .desc 							{font-size: 15px; line-height: 18px; text-align:; left; letter-spacing: 0px; font-weight: 300;}
 }
